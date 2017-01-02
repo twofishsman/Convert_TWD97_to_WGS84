@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AE2EC561E1A054A000F86CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2EC551E1A054A000F86CA /* AppDelegate.swift */; };
+		1AE2EC581E1A054A000F86CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2EC571E1A054A000F86CA /* ViewController.swift */; };
+		1AE2EC5B1E1A054A000F86CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE2EC591E1A054A000F86CA /* Main.storyboard */; };
+		1AE2EC5D1E1A054A000F86CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE2EC5C1E1A054A000F86CA /* Assets.xcassets */; };
+		1AE2EC601E1A054A000F86CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE2EC5E1E1A054A000F86CA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AE2EC521E1A054A000F86CA /* Convert_TWD97_to_WGS84.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Convert_TWD97_to_WGS84.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE2EC551E1A054A000F86CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AE2EC571E1A054A000F86CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AE2EC5A1E1A054A000F86CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AE2EC5C1E1A054A000F86CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AE2EC5F1E1A054A000F86CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AE2EC611E1A054A000F86CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AE2EC4F1E1A054A000F86CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AE2EC491E1A054A000F86CA = {
+			isa = PBXGroup;
+			children = (
+				1AE2EC541E1A054A000F86CA /* Convert_TWD97_to_WGS84 */,
+				1AE2EC531E1A054A000F86CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AE2EC531E1A054A000F86CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AE2EC521E1A054A000F86CA /* Convert_TWD97_to_WGS84.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AE2EC541E1A054A000F86CA /* Convert_TWD97_to_WGS84 */ = {
+			isa = PBXGroup;
+			children = (
+				1AE2EC551E1A054A000F86CA /* AppDelegate.swift */,
+				1AE2EC571E1A054A000F86CA /* ViewController.swift */,
+				1AE2EC591E1A054A000F86CA /* Main.storyboard */,
+				1AE2EC5C1E1A054A000F86CA /* Assets.xcassets */,
+				1AE2EC5E1E1A054A000F86CA /* LaunchScreen.storyboard */,
+				1AE2EC611E1A054A000F86CA /* Info.plist */,
+			);
+			path = Convert_TWD97_to_WGS84;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AE2EC511E1A054A000F86CA /* Convert_TWD97_to_WGS84 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE2EC641E1A054A000F86CA /* Build configuration list for PBXNativeTarget "Convert_TWD97_to_WGS84" */;
+			buildPhases = (
+				1AE2EC4E1E1A054A000F86CA /* Sources */,
+				1AE2EC4F1E1A054A000F86CA /* Frameworks */,
+				1AE2EC501E1A054A000F86CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Convert_TWD97_to_WGS84;
+			productName = Convert_TWD97_to_WGS84;
+			productReference = 1AE2EC521E1A054A000F86CA /* Convert_TWD97_to_WGS84.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AE2EC4A1E1A054A000F86CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = james;
+				TargetAttributes = {
+					1AE2EC511E1A054A000F86CA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y4TA5872GD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1AE2EC4D1E1A054A000F86CA /* Build configuration list for PBXProject "Convert_TWD97_to_WGS84" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AE2EC491E1A054A000F86CA;
+			productRefGroup = 1AE2EC531E1A054A000F86CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AE2EC511E1A054A000F86CA /* Convert_TWD97_to_WGS84 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AE2EC501E1A054A000F86CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE2EC601E1A054A000F86CA /* LaunchScreen.storyboard in Resources */,
+				1AE2EC5D1E1A054A000F86CA /* Assets.xcassets in Resources */,
+				1AE2EC5B1E1A054A000F86CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AE2EC4E1E1A054A000F86CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE2EC581E1A054A000F86CA /* ViewController.swift in Sources */,
+				1AE2EC561E1A054A000F86CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AE2EC591E1A054A000F86CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE2EC5A1E1A054A000F86CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AE2EC5E1E1A054A000F86CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE2EC5F1E1A054A000F86CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AE2EC621E1A054A000F86CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AE2EC631E1A054A000F86CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AE2EC651E1A054A000F86CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y4TA5872GD;
+				INFOPLIST_FILE = Convert_TWD97_to_WGS84/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Convert-TWD97-to-WGS84";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1AE2EC661E1A054A000F86CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y4TA5872GD;
+				INFOPLIST_FILE = Convert_TWD97_to_WGS84/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Convert-TWD97-to-WGS84";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AE2EC4D1E1A054A000F86CA /* Build configuration list for PBXProject "Convert_TWD97_to_WGS84" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE2EC621E1A054A000F86CA /* Debug */,
+				1AE2EC631E1A054A000F86CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE2EC641E1A054A000F86CA /* Build configuration list for PBXNativeTarget "Convert_TWD97_to_WGS84" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE2EC651E1A054A000F86CA /* Debug */,
+				1AE2EC661E1A054A000F86CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AE2EC4A1E1A054A000F86CA /* Project object */;
+}

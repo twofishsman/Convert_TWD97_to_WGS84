@@ -12,14 +12,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let testTWD97XY = CGPoint(x: 187038.98, y: 2517874.81)
+        let reult = ConvertCoordinate.TWD097_to_GWS84(point:testTWD97XY)
+        print ("reult\(reult)")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

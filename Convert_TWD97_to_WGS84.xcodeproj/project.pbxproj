@@ -12,6 +12,7 @@
 		1AE2EC5B1E1A054A000F86CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE2EC591E1A054A000F86CA /* Main.storyboard */; };
 		1AE2EC5D1E1A054A000F86CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE2EC5C1E1A054A000F86CA /* Assets.xcassets */; };
 		1AE2EC601E1A054A000F86CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE2EC5E1E1A054A000F86CA /* LaunchScreen.storyboard */; };
+		1AE2EC6C1E1A198D000F86CA /* ConvertCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2EC6B1E1A198D000F86CA /* ConvertCoordinate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1AE2EC5C1E1A054A000F86CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AE2EC5F1E1A054A000F86CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AE2EC611E1A054A000F86CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE2EC6B1E1A198D000F86CA /* ConvertCoordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertCoordinate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		1AE2EC541E1A054A000F86CA /* Convert_TWD97_to_WGS84 */ = {
 			isa = PBXGroup;
 			children = (
+				1AE2EC6A1E1A198D000F86CA /* ConvertCoordinate */,
 				1AE2EC551E1A054A000F86CA /* AppDelegate.swift */,
 				1AE2EC571E1A054A000F86CA /* ViewController.swift */,
 				1AE2EC591E1A054A000F86CA /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				1AE2EC611E1A054A000F86CA /* Info.plist */,
 			);
 			path = Convert_TWD97_to_WGS84;
+			sourceTree = "<group>";
+		};
+		1AE2EC6A1E1A198D000F86CA /* ConvertCoordinate */ = {
+			isa = PBXGroup;
+			children = (
+				1AE2EC6B1E1A198D000F86CA /* ConvertCoordinate.swift */,
+			);
+			path = ConvertCoordinate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AE2EC6C1E1A198D000F86CA /* ConvertCoordinate.swift in Sources */,
 				1AE2EC581E1A054A000F86CA /* ViewController.swift in Sources */,
 				1AE2EC561E1A054A000F86CA /* AppDelegate.swift in Sources */,
 			);

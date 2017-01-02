@@ -14,6 +14,7 @@
 		1AE2EC601E1A054A000F86CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE2EC5E1E1A054A000F86CA /* LaunchScreen.storyboard */; };
 		1AE2EC6C1E1A198D000F86CA /* ConvertCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2EC6B1E1A198D000F86CA /* ConvertCoordinate.swift */; };
 		1AE2EC771E1A2E7C000F86CA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2EC761E1A2E7C000F86CA /* README.md */; };
+		1AE2EC791E1A2F7C000F86CA /* Convert_TWD97_to_WGS84.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AE2EC781E1A2F7C000F86CA /* Convert_TWD97_to_WGS84.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1AE2EC6E1E1A1A46000F86CA /* TWD97_to_WGS84.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TWD97_to_WGS84.playground; sourceTree = "<group>"; };
 		1AE2EC731E1A2E66000F86CA /* Convert_TWD97_to_WGS84.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Convert_TWD97_to_WGS84.xcodeproj; sourceTree = SOURCE_ROOT; };
 		1AE2EC761E1A2E7C000F86CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		1AE2EC781E1A2F7C000F86CA /* Convert_TWD97_to_WGS84.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Convert_TWD97_to_WGS84.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				1AE2EC761E1A2E7C000F86CA /* README.md */,
+				1AE2EC781E1A2F7C000F86CA /* Convert_TWD97_to_WGS84.png */,
 				1AE2EC731E1A2E66000F86CA /* Convert_TWD97_to_WGS84.xcodeproj */,
 				1AE2EC6D1E1A1A46000F86CA /* playground */,
 				1AE2EC6A1E1A198D000F86CA /* ConvertCoordinate */,
@@ -163,6 +166,7 @@
 			files = (
 				1AE2EC601E1A054A000F86CA /* LaunchScreen.storyboard in Resources */,
 				1AE2EC5D1E1A054A000F86CA /* Assets.xcassets in Resources */,
+				1AE2EC791E1A2F7C000F86CA /* Convert_TWD97_to_WGS84.png in Resources */,
 				1AE2EC5B1E1A054A000F86CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

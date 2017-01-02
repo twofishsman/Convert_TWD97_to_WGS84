@@ -15,7 +15,7 @@ ConvertCoordinate.TWD097_to_GWS84(point: CGPoint)-> CLLocationCoordinate2D
 2.提供 viewController playground 範例
 
 ##example
-![pic](https://github.com/twofishsman/Convert_TWD97_to_WGS84/edit/master/Convert_TWD97_to_WGS84.png)
+<img src ="Convert_TWD97_to_WGS84.png">
 
 ##reference
 https://github.com/marsz/twd97

@@ -24,6 +24,7 @@
 		1AE2EC5F1E1A054A000F86CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AE2EC611E1A054A000F86CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AE2EC6B1E1A198D000F86CA /* ConvertCoordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertCoordinate.swift; sourceTree = "<group>"; };
+		1AE2EC6E1E1A1A46000F86CA /* TWD97_to_WGS84.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TWD97_to_WGS84.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		1AE2EC541E1A054A000F86CA /* Convert_TWD97_to_WGS84 */ = {
 			isa = PBXGroup;
 			children = (
+				1AE2EC6D1E1A1A46000F86CA /* playground */,
 				1AE2EC6A1E1A198D000F86CA /* ConvertCoordinate */,
 				1AE2EC551E1A054A000F86CA /* AppDelegate.swift */,
 				1AE2EC571E1A054A000F86CA /* ViewController.swift */,
@@ -73,6 +75,14 @@
 				1AE2EC6B1E1A198D000F86CA /* ConvertCoordinate.swift */,
 			);
 			path = ConvertCoordinate;
+			sourceTree = "<group>";
+		};
+		1AE2EC6D1E1A1A46000F86CA /* playground */ = {
+			isa = PBXGroup;
+			children = (
+				1AE2EC6E1E1A1A46000F86CA /* TWD97_to_WGS84.playground */,
+			);
+			path = playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

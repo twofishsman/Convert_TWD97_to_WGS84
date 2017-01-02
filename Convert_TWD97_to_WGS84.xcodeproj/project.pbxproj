@@ -13,6 +13,7 @@
 		1AE2EC5D1E1A054A000F86CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE2EC5C1E1A054A000F86CA /* Assets.xcassets */; };
 		1AE2EC601E1A054A000F86CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE2EC5E1E1A054A000F86CA /* LaunchScreen.storyboard */; };
 		1AE2EC6C1E1A198D000F86CA /* ConvertCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2EC6B1E1A198D000F86CA /* ConvertCoordinate.swift */; };
+		1AE2EC771E1A2E7C000F86CA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2EC761E1A2E7C000F86CA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		1AE2EC611E1A054A000F86CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AE2EC6B1E1A198D000F86CA /* ConvertCoordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertCoordinate.swift; sourceTree = "<group>"; };
 		1AE2EC6E1E1A1A46000F86CA /* TWD97_to_WGS84.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TWD97_to_WGS84.playground; sourceTree = "<group>"; };
+		1AE2EC731E1A2E66000F86CA /* Convert_TWD97_to_WGS84.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Convert_TWD97_to_WGS84.xcodeproj; sourceTree = SOURCE_ROOT; };
+		1AE2EC761E1A2E7C000F86CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		1AE2EC541E1A054A000F86CA /* Convert_TWD97_to_WGS84 */ = {
 			isa = PBXGroup;
 			children = (
+				1AE2EC761E1A2E7C000F86CA /* README.md */,
+				1AE2EC731E1A2E66000F86CA /* Convert_TWD97_to_WGS84.xcodeproj */,
 				1AE2EC6D1E1A1A46000F86CA /* playground */,
 				1AE2EC6A1E1A198D000F86CA /* ConvertCoordinate */,
 				1AE2EC551E1A054A000F86CA /* AppDelegate.swift */,
@@ -83,6 +88,11 @@
 				1AE2EC6E1E1A1A46000F86CA /* TWD97_to_WGS84.playground */,
 			);
 			path = playground;
+			sourceTree = "<group>";
+		};
+		1AE2EC741E1A2E66000F86CA /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +143,12 @@
 			mainGroup = 1AE2EC491E1A054A000F86CA;
 			productRefGroup = 1AE2EC531E1A054A000F86CA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1AE2EC741E1A2E66000F86CA /* Products */;
+					ProjectRef = 1AE2EC731E1A2E66000F86CA /* Convert_TWD97_to_WGS84.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1AE2EC511E1A054A000F86CA /* Convert_TWD97_to_WGS84 */,
@@ -160,6 +176,7 @@
 			files = (
 				1AE2EC6C1E1A198D000F86CA /* ConvertCoordinate.swift in Sources */,
 				1AE2EC581E1A054A000F86CA /* ViewController.swift in Sources */,
+				1AE2EC771E1A2E7C000F86CA /* README.md in Sources */,
 				1AE2EC561E1A054A000F86CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +339,7 @@
 				1AE2EC661E1A054A000F86CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
